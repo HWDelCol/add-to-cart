@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 560px;
+    height: 800px;
+}
+
+/*start styling project*/
+
+.warp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #d3cdc1;
+}
+.leftside {
+    width: 540px;
+    height: 380px;
+}
+
+.perfume {
+    width: 100%;
+}
+
+.rightside {
+    width: 540px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+}
+
+.heeaderright {
+    width: 540px;
+    padding: 10px;
+}
+
+.subtitle {
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 1.2rem;
+    text-align: start;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-family: 700;
+    font-size: 2.2rem;
+}
+
+.bodyright {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 28px;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    font-family: 700;
+    font-size: 2.2rem;
+    color: #4d997d;
+}
+
+.price::before {
+    content: "$";
+    font-family: 'Fraunces', serif;
+    font-family: 700;
+    font-size: 2.2rem;
+    color: #4d997d;
+}
+
+.price::after {
+    content: "$169.99";
+    font-family: 'Fraunces', serif;
+    font-family: 700;
+    font-size: .875rem;
+    color: #999;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.footerright {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttom {
+    font-size: 1.1rem;
+    background: #4d997d;
+    color: #ccc;
+    padding: 16px 220px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
